@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="دلتا إيمو - تفاصيل المنتج" />
+    <title>تفاصيل المنتج | دلتا إيمو</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="premium-effects.css" />
+  </head>
+
+  <body>
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="container topbar-container">
+        <div class="topbar-info">
+          <span><i class="fa-solid fa-phone"></i> +20 123 456 7890</span>
+          <span><i class="fa-solid fa-envelope"></i> info@delta-emo.com</span>
+        </div>
+        <div class="topbar-social" style="align-items: center">
+          <button
+            id="langSwitcher"
+            style="
+              background: none;
+              border: none;
+              cursor: pointer;
+              color: white;
+              font-weight: 700;
+              font-family: &quot;Tajawal&quot;, sans-serif;
+              display: flex;
+              align-items: center;
+              gap: 4px;
+              font-size: 0.85rem;
+            "
+            data-i18n="lang.toggle">
+            <i class="fa-solid fa-globe" style="color: var(--accent-color)"></i>
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar navbar-inner">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="logo-text">
+            <span class="logo-name"
+              >دلتا <span class="text-primary">إيمو</span></span
+            >
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+          <a href="about.html" data-i18n="nav.about">عن الشركة</a>
+          <a href="services.html" data-i18n="nav.services">خدماتنا</a>
+          <a href="products.html" class="active" data-i18n="nav.products"
+            >المنتجات</a
+          >
+          <a href="projects.html" data-i18n="nav.projects">أعمالنا</a>
+          <a href="news.html" data-i18n="nav.news">الأخبار</a>
+          <a
+            href="contact.html"
+            class="btn btn-primary nav-btn"
+            data-i18n="nav.contact"
+            >اطلب الآن</a
+          >
+        </nav>
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <div
+      class="page-header"
+      style="
+        background-image: url(&quot;https://images.unsplash.com/photo-1605639735529-688756c9a3ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80&quot;);
+      ">
+      <div class="overlay-opacity"></div>
+      <div class="container page-header-content text-left">
+        <h1 class="page-header-title">لوحات التوزيع الرئيسية (MDB/SDB)</h1>
+      </div>
+    </div>
+
+    <!-- Product Details Section -->
+    <section class="product-details-section section-padding">
+      <div class="container">
+        <!-- Main Product Info Grid -->
+        <div class="details-grid">
+          <!-- Product Images Gallery -->
+          <div class="details-images-col">
+            <div class="main-product-image">
+              <img
+                id="mainProductImage"
+                src="https://images.unsplash.com/photo-1605639735529-688756c9a3ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                alt="لوحات التوزيع الرئيسية" />
+              <div class="image-badge">
+                <i class="fa-solid fa-certificate"></i> معتمد عالمياً
+              </div>
+            </div>
+            <div class="product-thumbnails">
+              <div
+                class="thumb active"
+                data-image="https://images.unsplash.com/photo-1605639735529-688756c9a3ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80">
+                <img
+                  src="https://images.unsplash.com/photo-1605639735529-688756c9a3ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                  alt="صورة 1" />
+              </div>
+              <div
+                class="thumb"
+                data-image="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80">
+                <img
+                  src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80"
+                  alt="صورة 2" />
+              </div>
+              <div
+                class="thumb"
+                data-image="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80">
+                <img
+                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80"
+                  alt="صورة 3" />
+              </div>
+              <div
+                class="thumb"
+                data-image="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80">
+                <img
+                  src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                  alt="صورة 4" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Details Content -->
+          <div class="details-content-col">
+            <div class="product-category-tag">
+              <i class="fa-solid fa-layer-group"></i> لوحات التوزيع
+            </div>
+            <h1 class="product-details-title">
+              لوحات التوزيع الرئيسية (MDB/SDB)
+            </h1>
+            <div class="product-rating">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <span>(4.5 - 87 تقييم)</span>
+            </div>
+
+            <div class="product-short-desc">
+              <p>
+                لوحات توزيع كهربائية رئيسية عالية الجودة مصممة وفقاً للمعايير
+                الدولية IEC 61439. توفر حماية موثوقة وتوزيع آمن للطاقة في
+                المشاريع الصناعية والتجارية والسكنية.
+              </p>
+            </div>
+
+            <!-- Key Features -->
+            <div class="product-key-features">
+              <h3>المميزات الرئيسية:</h3>
+              <ul class="features-list-detailed">
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <div>
+                    <strong>معايير عالمية:</strong> مطابقة لمعيار IEC 61439
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <div>
+                    <strong>حماية متقدمة:</strong> IP54 / IP65 للبيئات القاسية
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <div>
+                    <strong>سعة كبيرة:</strong> تتحمل تيارات تصل إلى 6300A
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <div>
+                    <strong>تصميم معياري:</strong> سهولة الصيانة والتوسع
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Technical Specs -->
+            <div class="product-specs-box">
+              <h3>المواصفات الفنية:</h3>
+              <div class="specs-grid">
+                <div class="spec-item">
+                  <i class="fa-solid fa-bolt"></i>
+                  <div>
+                    <span class="spec-label">الجهد:</span>
+                    <span class="spec-value">منخفض / متوسط</span>
+                  </div>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-certificate"></i>
+                  <div>
+                    <span class="spec-label">المعيار:</span>
+                    <span class="spec-value">IEC 61439</span>
+                  </div>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <div>
+                    <span class="spec-label">الحماية:</span>
+                    <span class="spec-value">IP54 / IP65</span>
+                  </div>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-gauge-high"></i>
+                  <div>
+                    <span class="spec-label">التيار الأقصى:</span>
+                    <span class="spec-value">6300A</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="product-cta-buttons">
+              <a href="contact.html" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-cart-shopping"></i> اطلب السعر الآن
+              </a>
+              <button class="btn btn-outline-primary btn-lg">
+                <i class="fa-solid fa-file-pdf"></i> تحميل الكتالوج
+              </button>
+            </div>
+
+            <!-- Quick Info Box -->
+            <div class="quick-info-box">
+              <div class="quick-info-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div>
+                  <strong>شحن سريع</strong>
+                  <span>التوصيل خلال 3-5 أيام عمل</span>
+                </div>
+              </div>
+              <div class="quick-info-item">
+                <i class="fa-solid fa-shield"></i>
+                <div>
+                  <strong>ضمان شامل</strong>
+                  <span>ضمان 5 سنوات على التصنيع</span>
+                </div>
+              </div>
+              <div class="quick-info-item">
+                <i class="fa-solid fa-headset"></i>
+                <div>
+                  <strong>دعم فني 24/7</strong>
+                  <span>فريق متخصص على مدار الساعة</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tabs Section -->
+        <div class="product-tabs-section">
+          <div class="tabs-header">
+            <button class="tab-btn active" data-tab="description">
+              الوصف التفصيلي
+            </button>
+            <button class="tab-btn" data-tab="specs">المواصفات الكاملة</button>
+            <button class="tab-btn" data-tab="applications">التطبيقات</button>
+            <button class="tab-btn" data-tab="documents">الملفات</button>
+          </div>
+
+          <div class="tabs-content">
+            <!-- Description Tab -->
+            <div class="tab-panel active" id="description">
+              <h3>وصف المنتج</h3>
+              <p>
+                لوحات التوزيع الرئيسية (MDB) ولوحات التوزيع الفرعية (SDB) من
+                دلتا إيمو مصممة لتوفير أعلى مستويات الأمان والكفاءة في توزيع
+                الطاقة الكهربائية. تُصنع هذه اللوحات وفقاً للمعايير الدولية IEC
+                61439 وتخضع لاختبارات صارمة لضمان الجودة.
+              </p>
+              <h4>التصميم والبناء:</h4>
+              <ul>
+                <li>هيكل معدني قوي مصنوع من الفولاذ المجلفن بسماكة 1.5-2 مم</li>
+                <li>طلاء مقاوم للتآكل بتقنية الطلاء الكهروستاتيكي</li>
+                <li>أبواب مزودة بأقفال أمان ومفصلات قوية</li>
+                <li>نظام تبريد فعال مع فتحات تهوية محسوبة</li>
+              </ul>
+
+              <h4>مكونات اللوحة:</h4>
+              <ul>
+                <li>
+                  قواطع كهربائية من علامات تجارية عالمية (ABB، Schneider،
+                  Siemens)
+                </li>
+                <li>عدادات رقمية لقياس الطاقة والتيار والجهد</li>
+                <li>أجهزة حماية متقدمة (RCD، RCCB، MCCB)</li>
+                <li>نظام تأريض متكامل وفقاً للمواصفات</li>
+              </ul>
+            </div>
+
+            <!-- Specifications Tab -->
+            <div class="tab-panel" id="specs">
+              <h3>المواصفات الفنية الكاملة</h3>
+              <table class="specs-table">
+                <tbody>
+                  <tr>
+                    <td><strong>نوع اللوحة:</strong></td>
+                    <td>MDB / SDB</td>
+                  </tr>
+                  <tr>
+                    <td><strong>الجهد الكهربائي:</strong></td>
+                    <td>220V - 690V AC</td>
+                  </tr>
+                  <tr>
+                    <td><strong>التيار الأقصى:</strong></td>
+                    <td>حتى 6300A</td>
+                  </tr>
+                  <tr>
+                    <td><strong>التردد:</strong></td>
+                    <td>50/60 Hz</td>
+                  </tr>
+                  <tr>
+                    <td><strong>درجة الحماية:</strong></td>
+                    <td>IP54 / IP65</td>
+                  </tr>
+                  <tr>
+                    <td><strong>المعايير:</strong></td>
+                    <td>IEC 61439-1, IEC 61439-2</td>
+                  </tr>
+                  <tr>
+                    <td><strong>المادة:</strong></td>
+                    <td>فولاذ مجلفن بطلاء كهروستاتيكي</td>
+                  </tr>
+                  <tr>
+                    <td><strong>درجة حرارة التشغيل:</strong></td>
+                    <td>-5°C إلى +55°C</td>
+                  </tr>
+                  <tr>
+                    <td><strong>الارتفاع عن سطح البحر:</strong></td>
+                    <td>حتى 2000 متر</td>
+                  </tr>
+                  <tr>
+                    <td><strong>الرطوبة النسبية:</strong></td>
+                    <td>حتى 95% (بدون تكثف)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Applications Tab -->
+            <div class="tab-panel" id="applications">
+              <h3>التطبيقات والاستخدامات</h3>
+              <div class="applications-grid">
+                <div class="application-card">
+                  <div class="app-icon">
+                    <i class="fa-solid fa-industry"></i>
+                  </div>
+                  <h4>المصانع والمنشآت الصناعية</h4>
+                  <p>
+                    توزيع الطاقة للآلات والمعدات الصناعية الثقيلة مع حماية
+                    متقدمة ضد الأحمال الزائدة والقصر.
+                  </p>
+                </div>
+                <div class="application-card">
+                  <div class="app-icon">
+                    <i class="fa-solid fa-building"></i>
+                  </div>
+                  <h4>المباني التجارية</h4>
+                  <p>
+                    تأمين التغذية الكهربائية للمراكز التجارية والمولات والأبراج
+                    المكتبية بشكل موثوق وآمن.
+                  </p>
+                </div>
+                <div class="application-card">
+                  <div class="app-icon">
+                    <i class="fa-solid fa-hospital"></i>
+                  </div>
+                  <h4>المستشفيات والمرافق الصحية</h4>
+                  <p>
+                    ضمان توفر طاقة مستقرة وآمنة للأجهزة الطبية الحساسة مع
+                    إمكانية الربط بأنظمة الطوارئ.
+                  </p>
+                </div>
+                <div class="application-card">
+                  <div class="app-icon">
+                    <i class="fa-solid fa-oil-well"></i>
+                  </div>
+                  <h4>قطاع البترول والغاز</h4>
+                  <p>
+                    تصميمات خاصة مقاومة للظروف القاسية والبيئات الخطرة مع شهادات
+                    ATEX.
+                  </p>
+                </div>
+                <div class="application-card">
+                  <div class="app-icon">
+                    <i class="fa-solid fa-hotel"></i>
+                  </div>
+                  <h4>الفنادق والمنتجعات</h4>
+                  <p>
+                    حلول توزيع متكاملة تضمن الراحة والأمان للنزلاء مع إدارة ذكية
+                    للأحمال.
+                  </p>
+                </div>
+                <div class="application-card">
+                  <div class="app-icon">
+                    <i class="fa-solid fa-solar-panel"></i>
+                  </div>
+                  <h4>أنظمة الطاقة المتجددة</h4>
+                  <p>
+                    توافق تام مع أنظمة الطاقة الشمسية وطاقة الرياح ومحطات
+                    التوليد الهجينة.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Documents Tab -->
+            <div class="tab-panel" id="documents">
+              <h3>الملفات والشهادات</h3>
+              <div class="documents-list">
+                <a href="#" class="document-item">
+                  <div class="doc-icon">
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="doc-info">
+                    <h4>كتالوج المنتج</h4>
+                    <span>PDF - 2.5 MB</span>
+                  </div>
+                  <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="#" class="document-item">
+                  <div class="doc-icon">
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="doc-info">
+                    <h4>دليل التركيب</h4>
+                    <span>PDF - 1.8 MB</span>
+                  </div>
+                  <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="#" class="document-item">
+                  <div class="doc-icon">
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="doc-info">
+                    <h4>شهادة IEC 61439</h4>
+                    <span>PDF - 450 KB</span>
+                  </div>
+                  <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="#" class="document-item">
+                  <div class="doc-icon">
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="doc-info">
+                    <h4>شهادة ISO 9001</h4>
+                    <span>PDF - 350 KB</span>
+                  </div>
+                  <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="#" class="document-item">
+                  <div class="doc-icon">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </div>
+                  <div class="doc-info">
+                    <h4>ورقة البيانات الفنية</h4>
+                    <span>PDF - 850 KB</span>
+                  </div>
+                  <i class="fa-solid fa-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Related Products Section -->
+        <div class="related-products-section">
+          <div class="section-heading center">
+            <h2 class="title">منتجات <span>مشابهة</span></h2>
+          </div>
+          <div class="products-grid">
+            <a
+              href="products.html#mdb-sdb"
+              class="product-item clickable-card reveal">
+              <div class="product-img">
+                <img
+                  src="https://www.deltaimo.com/uploads/products/1764873010_6931d33267d85.jpg"
+                  alt="لوحات توزيع الجهد المنخفض" />
+                <div class="product-badge">الأكثر طلباً</div>
+                <div class="product-overlay">
+                  <span class="product-view-btn">
+                    <i class="fa-solid fa-eye"></i> عرض التفاصيل
+                  </span>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-cat">لوحات توزيع</div>
+                <h3>لـوحات التوزيع الرئيسية (MDB/SDB)</h3>
+                <p>
+                  لوحات توزيع الجهد المنخفض والمتوسط مصممة وفق معيار IEC 61439
+                  للعمل في أقسى الظروف الصناعية.
+                </p>
+                <div class="product-specs">
+                  <span><i class="fa-solid fa-bolt"></i> حتى 6300A</span>
+                  <span><i class="fa-solid fa-shield-halved"></i> IP65</span>
+                  <span
+                    ><i class="fa-solid fa-certificate"></i> IEC Certified</span
+                  >
+                </div>
+              </div>
+            </a>
+            <a
+              href="products.html#mdb-sdb"
+              class="product-item clickable-card reveal">
+              <div class="product-img">
+                <img
+                  src="https://www.deltaimo.com/uploads/products/1764873010_6931d33267d85.jpg"
+                  alt="لوحات توزيع الجهد المنخفض" />
+                <div class="product-badge">الأكثر طلباً</div>
+                <div class="product-overlay">
+                  <span class="product-view-btn">
+                    <i class="fa-solid fa-eye"></i> عرض التفاصيل
+                  </span>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-cat">لوحات توزيع</div>
+                <h3>لـوحات التوزيع الرئيسية (MDB/SDB)</h3>
+                <p>
+                  لوحات توزيع الجهد المنخفض والمتوسط مصممة وفق معيار IEC 61439
+                  للعمل في أقسى الظروف الصناعية.
+                </p>
+                <div class="product-specs">
+                  <span><i class="fa-solid fa-bolt"></i> حتى 6300A</span>
+                  <span><i class="fa-solid fa-shield-halved"></i> IP65</span>
+                  <span
+                    ><i class="fa-solid fa-certificate"></i> IEC Certified</span
+                  >
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="products.html#mdb-sdb"
+              class="product-item clickable-card reveal">
+              <div class="product-img">
+                <img
+                  src="https://www.deltaimo.com/uploads/products/1764873010_6931d33267d85.jpg"
+                  alt="لوحات توزيع الجهد المنخفض" />
+                <div class="product-badge">الأكثر طلباً</div>
+                <div class="product-overlay">
+                  <span class="product-view-btn">
+                    <i class="fa-solid fa-eye"></i> عرض التفاصيل
+                  </span>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-cat">لوحات توزيع</div>
+                <h3>لـوحات التوزيع الرئيسية (MDB/SDB)</h3>
+                <p>
+                  لوحات توزيع الجهد المنخفض والمتوسط مصممة وفق معيار IEC 61439
+                  للعمل في أقسى الظروف الصناعية.
+                </p>
+                <div class="product-specs">
+                  <span><i class="fa-solid fa-bolt"></i> حتى 6300A</span>
+                  <span><i class="fa-solid fa-shield-halved"></i> IP65</span>
+                  <span
+                    ><i class="fa-solid fa-certificate"></i> IEC Certified</span
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-col about-col">
+              <a href="index.html" class="logo footer-logo mb-4">
+                <i class="fa-solid fa-bolt text-white"></i>
+                <span>دلتا <span class="text-white">إيمو</span></span>
+              </a>
+              <p class="footer-desc">
+                نحن في دلتا إيمو نصنع المستقبل الكهربائي بأيد مصرية وتكنولوجيا
+                متطورة. نسعى دائماً لتقديم حلول شاملة ومستدامة لقطاع الطاقة.
+              </p>
+              <div class="newsletter mt-4">
+                <h4>اشترك في النشرة البريدية</h4>
+                <div class="newsletter-form">
+                  <input type="email" placeholder="البريد الإلكتروني..." />
+                  <button type="button">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">روابط سريعة</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-solid fa-angle-left"></i> الرئيسية</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i class="fa-solid fa-angle-left"></i> من نحن</a
+                  >
+                </li>
+                <li>
+                  <a href="products.html"
+                    ><i class="fa-solid fa-angle-left"></i> منتجاتنا</a
+                  >
+                </li>
+                <li>
+                  <a href="projects.html"
+                    ><i class="fa-solid fa-angle-left"></i> أعمالنا ومشاريعنا</a
+                  >
+                </li>
+                <li>
+                  <a href="news.html"
+                    ><i class="fa-solid fa-angle-left"></i> الأخبار والمقالات</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html"
+                    ><i class="fa-solid fa-angle-left"></i> اتصل بنا</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">الخدمات والمنتجات</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات التوزيع
+                    الرئيسية</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات تحكم
+                    المحركات</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات تحسين معامل
+                    القدرة</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> المحولات
+                    الكهربائية</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> الكابلات
+                    والمفـاتيح</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> خدمات التركيب
+                    والصيانة</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">تواصل معنا</h3>
+              <ul class="footer-contact-info">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span
+                    >القاهرة، المنطقة الصناعية السادسة، جمهورية مصر
+                    العربية</span
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+20 123 456 7890</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>info@delta-emo.com</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-clock"></i>
+                  <span>الأحد - الخميس: 08:00 ص - 05:00 م</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-flex">
+            <p>
+              &copy; 2026 جميع الحقوق محفوظة لشركة
+              <span class="text-white">دلتا إيمو</span>.
+            </p>
+            <p class="disclaimer">
+              الموقع تعريفي فقط ولا يتم الدفع أو التعاقد من خلاله.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+    <script>
+      // Image Gallery Script
+      document.querySelectorAll(".thumb").forEach((thumb) => {
+        thumb.addEventListener("click", function () {
+          const imageSrc = this.getAttribute("data-image");
+          document.getElementById("mainProductImage").src = imageSrc;
+
+          document
+            .querySelectorAll(".thumb")
+            .forEach((t) => t.classList.remove("active"));
+          this.classList.add("active");
+        });
+      });
+
+      // Tabs Script
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          const tabId = this.getAttribute("data-tab");
+
+          document
+            .querySelectorAll(".tab-btn")
+            .forEach((b) => b.classList.remove("active"));
+          document
+            .querySelectorAll(".tab-panel")
+            .forEach((p) => p.classList.remove("active"));
+
+          this.classList.add("active");
+          document.getElementById(tabId).classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

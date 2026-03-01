@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="دلتا إيمو - منتجات كهربائية معتمدة عالية الجودة." />
+    <title>المنتجات | دلتا إيمو</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="premium-effects.css" />
+  </head>
+
+  <body>
+    <div class="topbar">
+      <!-- Reusing Topbar structure -->
+      <div class="container topbar-container">
+        <div class="topbar-info">
+          <span><i class="fa-solid fa-phone"></i> +20 123 456 7890</span>
+          <span><i class="fa-solid fa-envelope"></i> info@delta-emo.com</span>
+        </div>
+        <div class="topbar-social" style="align-items: center">
+          <button
+            id="langSwitcher"
+            style="
+              background: none;
+              border: none;
+              cursor: pointer;
+              color: white;
+              font-weight: 700;
+              font-family: &quot;Tajawal&quot;, sans-serif;
+              display: flex;
+              align-items: center;
+              gap: 4px;
+              font-size: 0.85rem;
+            "
+            data-i18n="lang.toggle">
+            <i class="fa-solid fa-globe" style="color: var(--accent-color)"></i>
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+    <header class="navbar navbar-inner">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="logo-text">
+            <span class="logo-name"
+              >دلتا <span class="text-primary">إيمو</span></span
+            >
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+          <a href="about.html" data-i18n="nav.about">عن الشركة</a>
+          <a href="services.html" data-i18n="nav.services">خدماتنا</a>
+          <a href="products.html" class="active" data-i18n="nav.products"
+            >المنتجات</a
+          >
+          <a href="projects.html" data-i18n="nav.projects">أعمالنا</a>
+          <a href="news.html" data-i18n="nav.news">الأخبار</a>
+          <a
+            href="contact.html"
+            class="btn btn-primary nav-btn"
+            data-i18n="nav.contact"
+            >اطلب الآن</a
+          >
+        </nav>
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </header>
+
+    <div
+      class="page-header"
+      style="
+        background-image: url(&quot;https://images.unsplash.com/photo-1558222955-46e3ed9d9ba7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80&quot;);
+      ">
+      <div class="overlay-opacity"></div>
+
+      <!-- Page Header Achievement Badges -->
+      <div class="page-header-achievements">
+        <div class="ph-badge ph-badge-1">
+          <div class="ph-badge-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="ph-badge-content">
+            <h4>منتجات معتمدة</h4>
+            <p>IEC & ISO</p>
+          </div>
+        </div>
+        <div class="ph-badge ph-badge-2">
+          <div class="ph-badge-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <div class="ph-badge-content">
+            <h4>تقنيات حديثة</h4>
+            <p>أحدث المعايير</p>
+          </div>
+        </div>
+        <div class="ph-badge ph-badge-3">
+          <div class="ph-badge-icon">
+            <i class="fa-solid fa-shield-check"></i>
+          </div>
+          <div class="ph-badge-content">
+            <h4>ضمان شامل</h4>
+            <p>صيانة مجانية</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container page-header-content text-left">
+        <h1 class="page-header-title" data-i18n="nav.products">المنتجات</h1>
+        <p class="page-header-subtitle">
+          منتجات كهربائية عالية الجودة بمعايير دولية
+        </p>
+      </div>
+    </div>
+
+    <!-- Products Section -->
+    <section id="products" class="products section-padding">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <div class="heading-wrapper text-center">
+            <span class="bg-text">PRODUCTS</span>
+            <h4 class="subtitle">منتجاتنا</h4>
+            <h2 class="title">أحدث <span>المنتجات</span></h2>
+          </div>
+        </div>
+        <div class="filter-btns reveal">
+          <button class="filter-btn active" data-filter="all">الكل</button>
+          <button class="filter-btn" data-filter="distribution">
+            لوحات التوزيع
+          </button>
+          <button class="filter-btn" data-filter="control">لوحات التحكم</button>
+          <button class="filter-btn" data-filter="energy">ترشيد الطاقة</button>
+          <button class="filter-btn" data-filter="transformers">
+            المحولات
+          </button>
+        </div>
+
+        <div class="products-grid mt-5 filter-container">
+          <!-- Product 1 -->
+          <a
+            href="product-details.html"
+            class="product-item clickable-card reveal">
+            <div class="product-img">
+              <img
+                src="https://www.deltaimo.com/uploads/products/1764873010_6931d33267d85.jpg"
+                alt="لوحات توزيع الجهد المنخفض" />
+              <div class="product-badge">الأكثر طلباً</div>
+              <div class="product-overlay">
+                <span class="product-view-btn">
+                  <i class="fa-solid fa-eye"></i> عرض التفاصيل
+                </span>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-cat">لوحات توزيع</div>
+              <h3>لـوحات التوزيع الرئيسية (MDB/SDB)</h3>
+              <p>
+                لوحات توزيع الجهد المنخفض والمتوسط مصممة وفق معيار IEC 61439
+                للعمل في أقسى الظروف الصناعية.
+              </p>
+              <div class="product-specs">
+                <span><i class="fa-solid fa-bolt"></i> حتى 6300A</span>
+                <span><i class="fa-solid fa-shield-halved"></i> IP65</span>
+                <span
+                  ><i class="fa-solid fa-certificate"></i> IEC Certified</span
+                >
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 2 -->
+          <a
+            href="product-details.html"
+            class="product-item clickable-card reveal">
+            <div class="product-img">
+              <img
+                src="https://www.deltaimo.com/uploads/products/1764873010_6931d33267d85.jpg"
+                alt="لوحات توزيع الجهد المنخفض" />
+              <div class="product-badge">الأكثر طلباً</div>
+              <div class="product-overlay">
+                <span class="product-view-btn">
+                  <i class="fa-solid fa-eye"></i> عرض التفاصيل
+                </span>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-cat">لوحات توزيع</div>
+              <h3>لـوحات التوزيع الرئيسية (MDB/SDB)</h3>
+              <p>
+                لوحات توزيع الجهد المنخفض والمتوسط مصممة وفق معيار IEC 61439
+                للعمل في أقسى الظروف الصناعية.
+              </p>
+              <div class="product-specs">
+                <span><i class="fa-solid fa-bolt"></i> حتى 6300A</span>
+                <span><i class="fa-solid fa-shield-halved"></i> IP65</span>
+                <span
+                  ><i class="fa-solid fa-certificate"></i> IEC Certified</span
+                >
+              </div>
+            </div>
+          </a>
+
+          <!-- Product 3 -->
+          <a
+            href="product-details.html"
+            class="product-item clickable-card reveal">
+            <div class="product-img">
+              <img
+                src="https://www.deltaimo.com/uploads/products/1764873010_6931d33267d85.jpg"
+                alt="لوحات توزيع الجهد المنخفض" />
+              <div class="product-badge">الأكثر طلباً</div>
+              <div class="product-overlay">
+                <span class="product-view-btn">
+                  <i class="fa-solid fa-eye"></i> عرض التفاصيل
+                </span>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-cat">لوحات توزيع</div>
+              <h3>لـوحات التوزيع الرئيسية (MDB/SDB)</h3>
+              <p>
+                لوحات توزيع الجهد المنخفض والمتوسط مصممة وفق معيار IEC 61439
+                للعمل في أقسى الظروف الصناعية.
+              </p>
+              <div class="product-specs">
+                <span><i class="fa-solid fa-bolt"></i> حتى 6300A</span>
+                <span><i class="fa-solid fa-shield-halved"></i> IP65</span>
+                <span
+                  ><i class="fa-solid fa-certificate"></i> IEC Certified</span
+                >
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-col about-col">
+              <a href="index.html" class="logo footer-logo mb-4">
+                <i class="fa-solid fa-bolt text-white"></i>
+                <span>دلتا <span class="text-white">إيمو</span></span>
+              </a>
+              <p class="footer-desc">
+                نحن في دلتا إيمو نصنع المستقبل الكهربائي بأيد مصرية وتكنولوجيا
+                متطورة. نسعى دائماً لتقديم حلول شاملة ومستدامة لقطاع الطاقة.
+              </p>
+
+              <div class="newsletter mt-4">
+                <h4>اشترك في النشرة البريدية</h4>
+                <div class="newsletter-form">
+                  <input type="email" placeholder="البريد الإلكتروني..." />
+                  <button type="button">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">روابط سريعة</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-solid fa-angle-left"></i> الرئيسية</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i class="fa-solid fa-angle-left"></i> من نحن</a
+                  >
+                </li>
+                <li>
+                  <a href="products.html"
+                    ><i class="fa-solid fa-angle-left"></i> منتجاتنا</a
+                  >
+                </li>
+                <li>
+                  <a href="projects.html"
+                    ><i class="fa-solid fa-angle-left"></i> أعمالنا ومشاريعنا</a
+                  >
+                </li>
+                <li>
+                  <a href="news.html"
+                    ><i class="fa-solid fa-angle-left"></i> الأخبار والمقالات</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html"
+                    ><i class="fa-solid fa-angle-left"></i> اتصل بنا</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">الخدمات والمنتجات</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات التوزيع
+                    الرئيسية</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات تحكم
+                    المحركات</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات تحسين معامل
+                    القدرة</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> المحولات
+                    الكهربائية</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> الكابلات
+                    والمفـاتيح</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> خدمات التركيب
+                    والصيانة</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">تواصل معنا</h3>
+              <ul class="footer-contact-info">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span
+                    >القاهرة، المنطقة الصناعية السادسة، جمهورية مصر
+                    العربية</span
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+20 123 456 7890</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>info@delta-emo.com</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-clock"></i>
+                  <span>الأحد - الخميس: 08:00 ص - 05:00 م</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-flex">
+            <p>
+              &copy; 2026 جميع الحقوق محفوظة لشركة
+              <span class="text-white">دلتا إيمو</span>.
+            </p>
+            <p class="disclaimer">
+              الموقع تعريفي فقط ولا يتم الدفع أو التعاقد من خلاله.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

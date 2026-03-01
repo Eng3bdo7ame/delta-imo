@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="تعرف على دلتا إيمو، الشركة الرائدة في صناعة اللوحات الكهربائية والمحولات وأنظمة التحكم في مصر والشرق الأوسط. تعرف على مسيرتنا، رؤيتنا، شهاداتنا، وفريق الخبراء لدينا." />
+    <title>عن الشركة | دلتا إيمو - صناعة المستقبل الكهربائي</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="premium-effects.css" />
+  </head>
+
+  <body>
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="container topbar-container">
+        <div class="topbar-info">
+          <span><i class="fa-solid fa-phone"></i> +20 123 456 7890</span>
+          <span><i class="fa-solid fa-envelope"></i> info@delta-emo.com</span>
+          <span
+            ><i class="fa-solid fa-location-dot"></i> القاهرة، المنطقة
+            الصناعية</span
+          >
+        </div>
+        <div class="topbar-social" style="align-items: center">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <span
+            style="
+              width: 1px;
+              height: 18px;
+              background: rgba(255, 255, 255, 0.2);
+              margin: 0 8px;
+            "></span>
+          <a
+            href="#"
+            id="langSwitcher"
+            style="
+              color: white;
+              font-weight: 700;
+              font-family: &quot;Tajawal&quot;, sans-serif;
+              display: flex;
+              align-items: center;
+              gap: 4px;
+              font-size: 0.85rem;
+            ">
+            <i class="fa-solid fa-globe" style="color: var(--accent-color)"></i>
+            EN
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar navbar-inner">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name"
+              >دلتا <span class="text-primary">إيمو</span></span
+            >
+            <span class="logo-slogan">صناع المستقبل الكهربائي</span>
+          </div>
+        </a>
+
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown">
+            <a href="about.html" class="active"
+              >عن الشركة
+              <i class="fa-solid fa-angle-down" style="font-size: 0.8rem"></i
+            ></a>
+            <div class="dropdown-menu">
+              <a href="#about-intro">نبذة عن الشركة</a>
+              <a href="#vision-mission">الرؤية والرسالة</a>
+              <a href="#certificates">الشهادات والاعتمادات</a>
+              <a href="#team">فريق العمل</a>
+            </div>
+          </div>
+
+          <a href="services.html" data-i18n="nav.services">خدماتنا</a>
+          <a href="products.html" data-i18n="nav.products">المنتجات</a>
+          <a href="projects.html" data-i18n="nav.projects">أعمالنا</a>
+          <a href="news.html" data-i18n="nav.news">الأخبار</a>
+          <a
+            href="contact.html"
+            class="btn btn-primary nav-btn"
+            data-i18n="nav.contact"
+            >اطلب الآن</a
+          >
+        </nav>
+
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu Overaly -->
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu">
+      <div class="mobile-menu-header">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-bolt text-primary"></i>
+          <span>دلتا <span class="text-primary">إيمو</span></span>
+        </a>
+        <button class="close-menu-btn">
+          <i class="fa-solid fa-times"></i>
+        </button>
+      </div>
+      <div class="mobile-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html" class="active">عن الشركة</a>
+        <a href="services.html">خدماتنا</a>
+        <a href="products.html">المنتجات</a>
+        <a href="projects.html">أعمالنا</a>
+        <a href="index.html#partners">شركاء النجاح</a>
+        <a href="news.html">الأخبار</a>
+        <a href="contact.html" class="btn btn-primary text-center mt-3"
+          >اطلب الآن</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Header -->
+    <div
+      class="page-header"
+      style="
+        background-image: url(&quot;https://images.unsplash.com/photo-1541888081622-167823f6c87a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80&quot;);
+      ">
+      <div class="overlay-opacity"></div>
+
+      <!-- Page Header Achievement Badges -->
+      <div class="page-header-achievements">
+        <div class="ph-badge ph-badge-1">
+          <div class="ph-badge-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div class="ph-badge-content">
+            <h4>60+ عام</h4>
+            <p>خبرة وريادة</p>
+          </div>
+        </div>
+        <div class="ph-badge ph-badge-2">
+          <div class="ph-badge-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="ph-badge-content">
+            <h4>ISO معتمد</h4>
+            <p>جودة عالمية</p>
+          </div>
+        </div>
+        <div class="ph-badge ph-badge-3">
+          <div class="ph-badge-icon">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div class="ph-badge-content">
+            <h4>رواد الصناعة</h4>
+            <p>في الشرق الأوسط</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container page-header-content text-left">
+        <h1 class="page-header-title">
+          عن <span class="text-primary">دلتا إيمو</span>
+        </h1>
+        <p class="page-header-subtitle text-left">
+          ستة عقود من الريادة والتميز في صناعة اللوحات والمعدات الكهربائية بأعلى
+          معايير الجودة العالمية.
+        </p>
+      </div>
+    </div>
+
+    <!-- About Intro Section -->
+    <section id="about-intro" class="about section-padding mt-4">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images reveal">
+            <div class="img-main">
+              <img
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                alt="مهندسون في المصنع" />
+            </div>
+            <div class="img-sub">
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                alt="لوحات تحكم كهربائية" />
+            </div>
+            <div class="about-pattern"></div>
+          </div>
+          <div class="about-content reveal delay-1">
+            <div class="section-heading">
+              <div class="heading-wrapper">
+                <span class="bg-text">ABOUT</span>
+                <h4 class="subtitle">من نحن</h4>
+                <h2 class="title">تاريخ عريق.. مستقبل <span>مُشرق</span></h2>
+              </div>
+            </div>
+            <p class="lead-text">
+              تأسست دلتا إيمو على مبادئ الجودة والدقة، لتصبح من أعرق وأكبر مصنعي
+              اللوحات والمعدات الكهربائية في منطقة الشرق الأوسط.
+            </p>
+            <p class="about-desc">
+              منذ انطلاقتنا الأولى، حرصنا على استقطاب وتطوير أفضل الكفاءات
+              الهندسية. نمتلك اليوم أحدث خطوط الإنتاج والتقنيات الرقمية المعتمدة
+              عالمياً. نفخر بثقة آلاف العملاء الذين اختاروا دلتا إيمو لتكون
+              العصب المحرك لمشاريعهم الصناعية والتجارية والبنية التحتية القومية.
+              حيث نعتمد على استراتيجية متكاملة تضمن ليس فقط تصنيع المنتج بجودة
+              فائقة بل ومواكبته للتقدم التكنولوجي المستمر.
+            </p>
+
+            <div class="about-features-grid mt-4">
+              <div class="feature-item">
+                <div class="feat-icon">
+                  <i class="fa-solid fa-handshake"></i>
+                </div>
+                <div class="feat-text">
+                  <h4>شراكات عالمية</h4>
+                  <p>
+                    شراكات استراتيجية مع كبرى العلامات لتوفير أجود المكونات.
+                  </p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feat-icon"><i class="fa-solid fa-gears"></i></div>
+                <div class="feat-text">
+                  <h4>صناعة متكاملة</h4>
+                  <p>
+                    جميع عمليات التصميم والتقطيع والدهان والتجميع تحت سقف واحد.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section id="vision-mission" class="section-padding bg-light">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <div class="heading-wrapper text-center">
+            <span class="bg-text">GOALS</span>
+            <h4 class="subtitle">تطلعاتنا</h4>
+            <h2 class="title">الرؤية <span>والرسالة</span></h2>
+          </div>
+        </div>
+
+        <div class="vision-mission-cards">
+          <div class="vm-card reveal">
+            <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
+            <h3>رؤيتنا</h3>
+            <p>
+              أن نكون الخيار الأول والشركة الرائدة والموثوقة في مجال توزيع
+              الطاقة والتحكم الآلي على المستويين المحلي والإقليمي. نطمح إلى
+              قيادة التحول التكنولوجي في الصناعة الكهربائية مع التركيز الكامل
+              على كفاءة الطاقة، الابتكار المستمر، وتقديم حلول ذكية وصديقة للبيئة
+              تساهم في نهضة المجتمعات.
+            </p>
+          </div>
+          <div class="vm-card reveal delay-1">
+            <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>رسالتنا</h3>
+            <p>
+              الالتزام الثابت بتقديم منتجات كهربائية هندسية فائقة الجودة تفوق
+              توقعات عملائنا، من خلال تطبيق أعلى معايير السلامة والجودة
+              العالمية. نحن نسعى لتمكين فريقنا من الكوادر محلياً، وتطوير
+              عملياتنا التصنيعية لتقليل الهدر وتعزيز التنمية المستدامة بشكل
+              مستمر.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section-padding">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <div class="heading-wrapper text-center">
+            <span class="bg-text">AWARDS</span>
+            <h4 class="subtitle">ضمان الجودة</h4>
+            <h2 class="title">الشهادات <span>والاعتمادات</span></h2>
+          </div>
+          <p class="heading-desc">
+            نالت منتجاتنا أعلى الاعتمادات وشهادات الجودة العالمية التي تؤكد
+            متانة وصلاحية أنظمتنا وعملياتنا التصنيعية.
+          </p>
+        </div>
+
+        <div class="cert-grid mt-5 reveal delay-1">
+          <div class="cert-box">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/2/23/ISO_9001_quality_management_system.svg"
+              alt="ISO 9001"
+              style="height: 100px; object-fit: contain" />
+            <h4>ISO 9001:2015</h4>
+            <p class="text-muted mt-2 fs-6">
+              نظام إدارة الجودة المعتمد لتطابق المواصفات.
+            </p>
+          </div>
+          <div class="cert-box">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e9/OHSAS_18001_Logo.jpg"
+              alt="OHSAS 18001"
+              style="height: 100px; object-fit: contain" />
+            <h4>ISO 45001:2018</h4>
+            <p class="text-muted mt-2 fs-6">
+              نظام إدارة الصحة والسلامة المهنية بالمصانع.
+            </p>
+          </div>
+          <div class="cert-box">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ce/CE_mark.png"
+              alt="CE Mark"
+              style="height: 100px; object-fit: contain" />
+            <h4>CE Certified</h4>
+            <p class="text-muted mt-2 fs-6">
+              المطابقة لمعايير ومتطلبات الاتحاد الأوروبي.
+            </p>
+          </div>
+          <div class="cert-box">
+            <h1
+              style="
+                color: var(--primary-color);
+                font-size: 4rem;
+                margin-bottom: 1rem;
+                line-height: 100px;
+              ">
+              <i class="fa-solid fa-shield-halved"></i>
+            </h1>
+            <h4>IEC 61439</h4>
+            <p class="text-muted mt-2 fs-6">
+              اختبارات النمط العالمية للوحات الجهد المنخفض.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team -->
+    <section id="team" class="section-padding bg-light">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <div class="heading-wrapper text-center">
+            <span class="bg-text">EXPERTS</span>
+            <h4 class="subtitle">سر نجاحنا</h4>
+            <h2 class="title">فريق <span>العمل المتميز</span></h2>
+          </div>
+          <p class="heading-desc">
+            يضم فريقنا نخبة من أكفأ المهندسين والخبراء الفنيين في مجال الطاقة
+            وأنظمة التحكم.
+          </p>
+        </div>
+
+        <div class="team-grid mt-5">
+          <!-- Team Member 1 -->
+          <div class="team-card reveal">
+            <div class="team-img">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Team" />
+              <div class="team-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3>م. أحمد الدسوقي</h3>
+              <span>المدير التنفيذي</span>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card reveal delay-1">
+            <div class="team-img">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Team" />
+              <div class="team-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3>م. سارة هشام</h3>
+              <span>مدير المشروعات (توزيع الطاقة)</span>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card reveal delay-2">
+            <div class="team-img">
+              <img
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Team" />
+              <div class="team-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3>م. محمود عز الدين</h3>
+              <span>رئيس قسم الأتمتة والتحكم PLC</span>
+            </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="team-card reveal delay-3">
+            <div class="team-img">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Team" />
+              <div class="team-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3>م. مصطفى الشناوي</h3>
+              <span>مدير مراقبة وعمليات الجودة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-col about-col">
+              <a href="index.html" class="logo footer-logo mb-4">
+                <i class="fa-solid fa-bolt text-white"></i>
+                <span>دلتا <span class="text-white">إيمو</span></span>
+              </a>
+              <p class="footer-desc">
+                نحن في دلتا إيمو نصنع المستقبل الكهربائي بأيد مصرية وتكنولوجيا
+                متطورة. نسعى دائماً لتقديم حلول شاملة ومستدامة لقطاع الطاقة.
+              </p>
+
+              <div class="newsletter mt-4">
+                <h4>اشترك في النشرة البريدية</h4>
+                <div class="newsletter-form">
+                  <input type="email" placeholder="البريد الإلكتروني..." />
+                  <button type="button">
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">روابط سريعة</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="index.html"
+                    ><i class="fa-solid fa-angle-left"></i> الرئيسية</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i class="fa-solid fa-angle-left"></i> من نحن</a
+                  >
+                </li>
+                <li>
+                  <a href="products.html"
+                    ><i class="fa-solid fa-angle-left"></i> منتجاتنا</a
+                  >
+                </li>
+                <li>
+                  <a href="projects.html"
+                    ><i class="fa-solid fa-angle-left"></i> أعمالنا ومشاريعنا</a
+                  >
+                </li>
+                <li>
+                  <a href="news.html"
+                    ><i class="fa-solid fa-angle-left"></i> الأخبار والمقالات</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html"
+                    ><i class="fa-solid fa-angle-left"></i> اتصل بنا</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">الخدمات والمنتجات</h3>
+              <ul class="footer-links">
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات التوزيع
+                    الرئيسية</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات تحكم
+                    المحركات</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> لوحات تحسين معامل
+                    القدرة</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> المحولات
+                    الكهربائية</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> الكابلات
+                    والمفـاتيح</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-angle-left"></i> خدمات التركيب
+                    والصيانة</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">تواصل معنا</h3>
+              <ul class="footer-contact-info">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span
+                    >القاهرة، المنطقة الصناعية السادسة، جمهورية مصر
+                    العربية</span
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <span>+20 123 456 7890</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>info@delta-emo.com</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-clock"></i>
+                  <span>الأحد - الخميس: 08:00 ص - 05:00 م</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-flex">
+            <p>
+              &copy; 2026 جميع الحقوق محفوظة لشركة
+              <span class="text-white">دلتا إيمو</span>.
+            </p>
+            <p class="disclaimer">
+              الموقع تعريفي فقط ولا يتم الدفع أو التعاقد من خلاله.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom API/Scripts -->
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
